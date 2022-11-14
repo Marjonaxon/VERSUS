@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    background: #222;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+#header {
+    background-image: url('../css/imges/bg-headr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 28px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 89px;
+    height: 30px;
+}
+.logo img {
+    width: inherit;
+    height: inherit;
+}
+.list {
+    padding: 20px;
+}
+.list li {
+    display: inline-block;
+}
+.list li:not(:last-child) {
+    margin-right: 40px;
+}
+.list li a {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    text-decoration: none;
+}
+.list li a.active {
+    color: #00D6B4;
+}
+.hero {
+    padding: 140px 0;
+    text-align: center;
+}
+.hero h1 {
+    margin-bottom: 29px;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #fff;
+    width: 465px;
+    margin: 0 auto;
+    margin-bottom: 29px;
+
+}
+.btn {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00D6B4;
+    border: 1px solid #00D6B4;
+    border-radius: 3px;
+    padding: 10px 26px;
+    background: transparent;
+    transition: .3s;
+}
+.btn:hover {
+    background: #00D6B4;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:active {
+    opacity: 0.6;
+}
+.bg-cards {
+    padding: 50px 0 79px 0;
+}
+.card-title {
+    text-align: center;
+    margin-bottom: 33px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    width: 300px;
+    height: 225px;
+    border-radius: 3px;
+}
+.card img {
+    width: inherit;
+    height: inherit;
+    border-radius: 3px;
+    object-fit: cover;
+}
+#footer {
+    padding: 35px 0;
+    text-align: center;
+}
+#footer h3{
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #c2c2c2;
+}
+#footer p{
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #999999;
+}
